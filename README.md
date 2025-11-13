@@ -1,34 +1,63 @@
-# Medical Bill Truth Checker 🏥🔍
+Medical Bill Truth Checker 🏥🔍
 
-The **Medical Bill Truth Checker** is a Streamlit-based application designed to help consumers verify the accuracy of medical bills. It identifies unusual or suspicious charges using a simple risk-scoring model and stores results in a blockchain-style ledger for transparency and integrity.
+The Medical Bill Truth Checker is a Streamlit-based application designed to help consumers verify the accuracy of medical bills. It highlights unusual or suspicious charges using a simple AI risk-scoring model and records each evaluation inside a blockchain-style ledger to ensure transparency and tamper resistance.
 
----
+⭐ Key Features
 
-## 💡 Features
+• Upload medical bill information
+• Automated detection of suspicious or high-risk bills
+• Blockchain-style ledger stores each result securely
+• Easy-to-use Streamlit web interface
+• No coding knowledge required to run
 
-- **Upload Medical Bill Data**  
-  Enter claim details such as provider, total amount, number of line items, and in-network status.
+🧰 Technologies Used
 
-- **Automated Risk Detection**  
-  Flags high-risk medical bills based on patterns associated with overbilling or fraudulent claims.
+• Python 3
+• Streamlit (web interface)
+• Pandas (data handling)
+• Scikit-learn (risk analysis model)
+• Hashlib + JSON (blockchain-style blocks)
 
-- **Blockchain-Style Ledger**  
-  Each bill evaluation is stored as a cryptographically hashed block to ensure traceability and tamper resistance.
+🚀 How to Install Everything (Beginner-Friendly)
 
-- **Interactive Web App**  
-  Built with Streamlit, allowing the user to interact with the system via a user-friendly interface.
+These are the “ingredients” your app needs to work.
 
----
+Open Command Prompt
 
-## 🛠️ Technologies Used
+Type the following EXACT line to install all required tools at once:
+pip install streamlit pandas scikit-learn
 
-- **Python 3**
-- **Streamlit**
-- **RandomForestClassifier (simulated model)**
-- **JSON / Hashlib for blockchain structure**
+Press Enter
 
----
+Wait until the installation finishes
 
-## 🚀 How to Run the App
+That’s it — once these three tools are installed, the app can run.
 
-1. Install dependencies:
+▶️ How to Run the App
+
+Go to the folder where your Python file is saved
+
+Open Command Prompt inside that folder
+
+Type this exactly:
+streamlit run module10_medical_bill_app.py
+
+Press Enter
+
+Your browser will open automatically
+
+If it doesn’t, go to this link manually:
+http://localhost:8501
+
+🎯 Purpose of the Project
+
+This project demonstrates how AI and blockchain-inspired technology can help consumers understand the accuracy of healthcare bills. It provides a transparent, secure, and user-friendly way to detect potential fraud or overbilling.
+
+👩‍💻 Author
+
+Created by Alisha Rush
+Module 10 — AI in Blockchain
+
+⚠️ Disclaimer
+
+This tool is for educational and demonstration purposes only. It is not a substitute for professional medical billing review, legal guidance, or healthcare consulting.
